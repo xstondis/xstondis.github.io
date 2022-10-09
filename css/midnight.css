@@ -1,9 +1,24 @@
-img {
-    border: 0;
-    -ms-interpolation-mode: bicubic
+body {
+    padding: 0px 0px 0px;
+    margin: 0px;
+    font: 14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    font-weight: normal;
+    text-align: center;
+    background: #252525;
+    background-attachment: fixed !important;
+    background: linear-gradient(#2a2a29, #1c1c1c)
 }
 
-div {
+html,body,.container,.content {
+    height: 100%
+}
+
+.blur {
+    filter: blur(5px);
+}
+
+.lol {
     width: 45%;
     aspect-ratio: 4 / 2;
     border: 3px solid gray;
@@ -12,25 +27,14 @@ div {
     left: 50%;
     background: rgb(24, 24, 24);
     padding: 20px 0px 0px;
+    transform: translate(-50%, -50%);
   }
 
-.container {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-
-body {
-    padding: 50px 20px 0px;
-    margin: 0px;
-    font: 14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #ffffff;
-    font-weight: normal;
-    text-align: center; 
-    background: #252525;
-    background-attachment: fixed !important;
-    background: linear-gradient(#2a2a29, #1c1c1c)
+/*Class vs id???*/
+.amazing {
+    filter: blur(8px);
+    background-image: url('../assets/kojima.jpg');
+    height: 100%
 }
 
 blockquote {
