@@ -1,41 +1,46 @@
+/*background: linear-gradient(#2a2a29, #1c1c1c)*/
+
 body {
     padding: 0px 0px 0px;
+    box-sizing: border-box;
     margin: 0px;
     font: 14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #ffffff;
     font-weight: normal;
     text-align: center;
-    background: #252525;
+    background: url('../assets/cat1.gif');
     background-attachment: fixed !important;
-    background: linear-gradient(#2a2a29, #1c1c1c)
+    background-position: center;
+    background-size: cover;
 }
 
 html,body,.container,.content {
     height: 100%
 }
 
-.blur {
-    filter: blur(5px);
-}
-
 .lol {
-    width: 45%;
+    z-index:1;
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 1em;
     aspect-ratio: 4 / 2;
     border: 3px solid gray;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    background: rgb(24, 24, 24);
-    padding: 20px 0px 0px;
-    transform: translate(-50%, -50%);
+    background: rgb(24, 24, 24);    
   }
 
-/*Class vs id???*/
 .amazing {
-    filter: blur(8px);
-    background-image: url('../assets/kojima.jpg');
+    z-index:-1;
+    position:absolute;
+    width: 100%;
+    backdrop-filter: blur(6px);
     height: 100%
 }
+
+.job {
+    height: 15%;
+}
+
+
 
 blockquote {
     border-left: 3px solid #ffcc00;
