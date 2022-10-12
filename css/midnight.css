@@ -14,6 +14,7 @@ body {
 
 img {
     width: 30%;
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.637);
 }
 
 
@@ -70,18 +71,26 @@ video {
     z-index:-1;
     position:absolute;
     width: 100%;
-    backdrop-filter: blur(6px);
-    filter: brightness(30%);
+    backdrop-filter: blur(10px);
+    /*wontfix*/
+    filter: brightness(60%);
     height: 100%
 }
 
 
 .xdds{
-    margin: -2px;
+    margin: -2px 2px;
     color: #00ff75;
     text-decoration: none;
+    text-shadow: 0 0 10px #00ff75; 
+}
 
-    
+.xddds{
+    margin: -25px 35px;
+    /*wontfix*/
+    color: #ffbb3d;
+    text-decoration: none;
+    text-shadow: 0 0 10px #ffbb3d; 
 }
 
 .line{
