@@ -13,7 +13,7 @@ body {
 }
 
 h1 {
-    font-size:32px
+    font-size:30px
 }
 
 strong {
@@ -24,7 +24,7 @@ strong {
 
 
 img {
-    width: 30%;
+    width: 25%;
     box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.637);
 }
 
@@ -33,7 +33,7 @@ html,body,.container,.content {
     height: 100%
 }
 
-video {
+.videobg {
     object-fit: cover;
     width: 100vw;
     height: 100vh;
@@ -72,10 +72,7 @@ video {
     inset 0 0 0 5px #282828,
     inset 0 0 0 6px #3c3c3c,
     inset 0 0 0 7px #0c0c0c;
-
     background: linear-gradient(#252525, #111111);
-    
-    
   }
 
 .amazing {
@@ -83,7 +80,7 @@ video {
     position:absolute;
     width: 100%;
     backdrop-filter: blur(10px);
-    /*wontfix*/
+    /*wontfixXdDDDd*/
     filter: brightness(60%);
     height: 100%
 }
@@ -91,14 +88,15 @@ video {
 
 .xdds{
     margin: -2px 2px;
+    display:inline-block;
     color: #00ff75;
     text-decoration: none;
     text-shadow: 0 0 10px #00ff75; 
 }
 
-.xddds{
-    margin: -25px 35px;
-    /*wontfix*/
+.xdds1{
+    margin: -2px 2px;
+    display:inline-block;
     color: #ffbb3d;
     text-decoration: none;
     text-shadow: 0 0 10px #ffbb3d; 
@@ -117,9 +115,8 @@ video {
     height: 20%;
 }
 .sepereate {
-    height: 5px;
+    height: 0x;
 }
-
 
 blockquote {
     border-left: 3px solid #ffcc00;
@@ -135,4 +132,16 @@ code {
     margin: 0 4px;
     padding: 4px 6px;
     border-radius: 2px
+}   
+
+footer {
+    position: fixed;
+    display: block;
+    height: 20px;
+    background: linear-gradient(#252525, #111111);
+    padding: 5px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
 }
