@@ -2,7 +2,7 @@ body {
     padding: 0px 0px 0px;
     box-sizing: border-box;
     margin: 0px;
-    font: 0.9rem "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 0.9rem "Helvetica";
     color: #ffffff;
     font-weight: normal;
     text-align: center;
@@ -11,6 +11,17 @@ body {
     background-size: cover;
     background: linear-gradient(#2a2a29, #1c1c1c);
 }
+
+h1 {
+    font-size:32px
+}
+
+strong {
+	color: #6ffcb1;
+	text-shadow: 0 0 5px #00ff75;
+	font-weight: normal;
+}
+
 
 img {
     width: 30%;
